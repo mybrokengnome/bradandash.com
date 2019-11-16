@@ -83,12 +83,6 @@
                         <ul>
                         </ul>
                         <div class="gla_main_menu_content_menu_copy">
-                            <form>
-                                <input type="text" class="form-control" placeholder="Enter Your Keywords">
-                                <button type="submit" class="btn">
-                                  Search
-                                </button>
-                            </form>
                             <br>
                             <p>&copy; 2019 BradAndAsh.com</p>
                             <!-- Social Buttons -->
@@ -106,24 +100,6 @@
                     <!-- container end -->
                 </div>
                 <!-- menu content end -->
-
-                <!-- Search Block -->
-                <div class="gla_search_block">
-                    
-                    <div class="gla_search_block_link gla_search_parent"><i class="ti ti-search"></i>
-                        <ul>
-                            <li>
-                                <form>
-                                    <input type="text" class="form-control" placeholder="Enter Your Keywords">
-                                    <button type="submit" class="btn">
-                                      <i class="ti ti-search"></i>
-                                    </button>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Search Block End -->
 
                 <!-- Top Menu -->
                 <div class="gla_default_menu">
@@ -524,7 +500,7 @@
                 
                 <div class="row">
                     <div class="col-md-8 col-md-push-2">
-                        <form action="https://formspree.io/your@mail.com" method="POST">
+                        <form data-netlify="true" method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <label>Your name*</label>
@@ -540,20 +516,13 @@
 
                                     <input type="radio" name="attend" value="Yes, I will be there">
                                     <span>Yes, I will be there</span><br>
+                                    <input type="radio" name="attend" value="Yes, with a plus 1">
+                                    <span>Yes, with a plus 1</span><br>
                                     <input type="radio" name="attend" value="Sorry, I can't come">
                                     <span>Sorry, I can't come</span>
                                     
                                 </div>
                                 <div class="col-md-6">
-                                    <label>Meal preference</label>
-                                    <select name="meal" class="form-control form-opacity">
-                                        <option value="I eat anything">I eat anything</option>
-                                        <option value="Beef">Beef</option>
-                                        <option value="Chicken">Chicken</option>
-                                        <option value="Vegetarian">Vegetarian</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-12">
                                     <label>Notes</label>
                                     <textarea name="message" class="form-control form-opacity"></textarea>
                                 </div>
