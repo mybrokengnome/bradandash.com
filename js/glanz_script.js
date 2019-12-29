@@ -211,22 +211,6 @@
 		navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
 	});
 
-	/* OWL PARTNERS*/
-	$(".gla_partners").owlCarousel({
- 		navigation : true, 
- 		responsive: true, 
- 		responsiveRefreshRate : 200, 
- 		responsiveBaseElement:window, 
- 		slideSpeed : 200, 
- 		addClassActive:true,
-		paginationSpeed : 200, 
-		rewindSpeed : 200,
-		items:5,
-		autoPlay : true, 
-		autoHeight : true,
-		touchDrag:true, 
-		navigationText:['<i class="ti ti-angle-left"></i>','<i class="ti ti-angle-right"></i>']
-	});
 
 	/*OWL Carousel in Shop Item*/
 	if ($('.gla_shop_item_slider img').length>1) {
